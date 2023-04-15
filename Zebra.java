@@ -21,7 +21,7 @@ public class Zebra extends Animal{
 		System.out.println("ZZZZZZZZZ");
 	}
 /**
- * Method showing how does the zebra like to play	
+ * Method showing how does the zebra like to play.	.
  */
 	
 	@Override
