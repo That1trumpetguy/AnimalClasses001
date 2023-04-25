@@ -6,7 +6,7 @@
 public class Moose extends Animal {
 
   /**
-   * Constructor recieves a name and passes it to the constructor.
+   * Constructor receives a name and passes it to the constructor.
    * @param name the moose's name.
    */
   public Moose(String name) {
