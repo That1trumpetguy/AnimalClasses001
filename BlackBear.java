@@ -7,14 +7,16 @@ public class BlackBear extends Animal {
     /**
      * A field which stores the animals name.
      */
-    protected String name;
+    BlackBear(String name){
+        super(name);  //CONSTRUCTOR INCORRECT
+    }
 
     /**
      * A constructor that takes in a name.
      * @param name Name of the animal.
      */
-    public Animal(String name){
-        this.name = name;
+    public void Animal(String name){
+        this.name = name; //HAD TO ADD VOID
     }
 
     /**

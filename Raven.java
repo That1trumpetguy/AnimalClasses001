@@ -8,14 +8,17 @@ public class Raven extends Animal{
    /**
     * A field which stores the animals name.
     */
-   protected String name;
+   Raven(String name){  //COMPLETLY WRONG CONSTRUCTOR
+      super(name);
+   }
+   
       
    
    /**
     * A constructor that takes in a name.
     *@param name Name of the animal.
     */
-   public Animal(String name){
+   public void Animal(String name){ //HAD TO REMOVE VOID
       this.name = name;
    }
    
@@ -33,7 +36,7 @@ public class Raven extends Animal{
     * Abstract method that should represent a specific  activity
     * that an animal does for fun.
     */
-   public abstract void play(){
+   public void play(){ //HAD TO REMOVE ABSTRACT
       System.out.println("Stares vacantly");
    }
    

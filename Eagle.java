@@ -36,5 +36,5 @@ public class Eagle extends Animal {
         System.out.println(this.name +"s enjoy eating anything from Foxbats, Fulcrums, Bears, or litterally anything it can get a" +
                 "missles or guns on. Whenever our politicians let her free, she is ready to go out and eat. ");
     }//end of eat
-*/
+
 }//end of main
